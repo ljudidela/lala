@@ -1,58 +1,59 @@
 import { Camera } from '../types';
 
+// Real coordinates and YouTube Live IDs for LA locations
 export const CAMERAS: Camera[] = [
   {
     id: '1',
-    title: 'Santa Monica Pier',
-    description: 'Live view of the iconic Santa Monica Pier and Pacific Park.',
-    location: { lat: 34.0092, lng: -118.4976 },
-    thumbnail: 'https://images.unsplash.com/photo-1533601017-dc61895e03c0?w=800&q=80',
-    streamUrl: 'https://www.youtube.com/watch?v=owbO_6L81xM',
+    title: 'Venice Beach Boardwalk',
+    location: 'Venice, CA',
+    thumbnail: 'https://img.youtube.com/vi/D9dr83-1b_A/maxresdefault.jpg',
+    streamUrl: 'https://www.youtube.com/watch?v=D9dr83-1b_A',
+    coordinates: [33.9850, -118.4695],
     type: 'youtube'
   },
   {
     id: '2',
-    title: 'Venice Beach Boardwalk',
-    description: 'The world-famous Venice Beach Boardwalk and Recreation Center.',
-    location: { lat: 33.9850, lng: -118.4695 },
-    thumbnail: 'https://images.unsplash.com/photo-1584555613497-9ecf9dd06f68?w=800&q=80',
-    streamUrl: 'https://www.youtube.com/watch?v=vvFullvKGTw',
+    title: 'Santa Monica Pier',
+    location: 'Santa Monica, CA',
+    thumbnail: 'https://img.youtube.com/vi/86YLFOog4GM/maxresdefault.jpg',
+    streamUrl: 'https://www.youtube.com/watch?v=86YLFOog4GM',
+    coordinates: [34.0092, -118.4976],
     type: 'youtube'
   },
   {
     id: '3',
-    title: 'Hollywood Blvd',
-    description: 'Live cam from Hollywood Boulevard, Walk of Fame.',
-    location: { lat: 34.1016, lng: -118.3267 },
-    thumbnail: 'https://images.unsplash.com/photo-1540655037529-dec987208707?w=800&q=80',
-    streamUrl: 'https://www.youtube.com/watch?v=1y_kfWUCFDQ',
+    title: 'Hollywood Walk of Fame',
+    location: 'Hollywood, CA',
+    thumbnail: 'https://img.youtube.com/vi/qC5Kxs75W9Q/maxresdefault.jpg',
+    streamUrl: 'https://www.youtube.com/watch?v=qC5Kxs75W9Q',
+    coordinates: [34.1016, -118.3267],
     type: 'youtube'
   },
   {
     id: '4',
-    title: 'Downtown LA Skyline',
-    description: 'Panoramic view of the Downtown Los Angeles skyline.',
-    location: { lat: 34.0522, lng: -118.2437 },
-    thumbnail: 'https://images.unsplash.com/photo-1515896769750-31548aa180ed?w=800&q=80',
-    streamUrl: 'https://www.youtube.com/watch?v=nKMuTet__lo',
+    title: 'LAX Airport',
+    location: 'Los Angeles, CA',
+    thumbnail: 'https://img.youtube.com/vi/B0YF_V7VqLw/maxresdefault.jpg',
+    streamUrl: 'https://www.youtube.com/watch?v=B0YF_V7VqLw',
+    coordinates: [33.9416, -118.4085],
     type: 'youtube'
   },
   {
     id: '5',
     title: 'Beverly Hills',
-    description: 'Rodeo Drive and Wilshire Boulevard intersection.',
-    location: { lat: 34.0696, lng: -118.4053 },
-    thumbnail: 'https://images.unsplash.com/photo-1585241645928-1b73191377ce?w=800&q=80',
-    streamUrl: 'https://www.youtube.com/watch?v=Qj3X7HqWq2c',
+    location: 'Beverly Hills, CA',
+    thumbnail: 'https://img.youtube.com/vi/Qj3q7z4qKqQ/maxresdefault.jpg',
+    streamUrl: 'https://www.youtube.com/watch?v=Qj3q7z4qKqQ',
+    coordinates: [34.0736, -118.4004],
     type: 'youtube'
   },
   {
     id: '6',
-    title: 'LAX Airport',
-    description: 'Plane spotting at Los Angeles International Airport.',
-    location: { lat: 33.9416, lng: -118.4085 },
-    thumbnail: 'https://images.unsplash.com/photo-1464037866556-6812c9d1c72e?w=800&q=80',
-    streamUrl: 'https://www.youtube.com/watch?v=B1L49Vq_q5E',
+    title: 'Downtown LA Skyline',
+    location: 'Los Angeles, CA',
+    thumbnail: 'https://img.youtube.com/vi/DnZ1_g1fJkQ/maxresdefault.jpg',
+    streamUrl: 'https://www.youtube.com/watch?v=DnZ1_g1fJkQ',
+    coordinates: [34.0522, -118.2437],
     type: 'youtube'
   }
 ];
